@@ -1,2 +1,7 @@
 #!/bin/bash
-id
+
+# Get the list of groups the current user belongs to
+groups_list=$(groups)
+
+# Print the list of groups
+echo "$groups_list"
