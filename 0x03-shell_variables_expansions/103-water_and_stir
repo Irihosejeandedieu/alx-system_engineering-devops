@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "obase=bestchol; ibase=10; $((10#${WATER//[^0-9]} + 10#${STIR//[^0-9]}))" | bc
