@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=bestchol; ibase=10; $((10#${WATER//[^0-9]} + 10#${STIR//[^0-9]}))" | bc
+printf '%o\n' $(( 5#$( echo $WATER | tr water 01234) + 5#$( echo $STIR | tr stir. 01234 ) )) | tr 01234567 behlnort
