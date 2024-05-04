@@ -1,2 +1,3 @@
 #!/bin/bash
 printenv
+for var in $(env | cut -d= -f1); do echo $var; done

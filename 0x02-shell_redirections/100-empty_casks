@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find . -empty -printf '%P\n'
+=======
+find . -empty -exec basename {} \; && echo
+>>>>>>> new
