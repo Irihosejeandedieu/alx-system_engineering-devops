@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 ls -amvp
+=======
+ls -a
+>>>>>>> new

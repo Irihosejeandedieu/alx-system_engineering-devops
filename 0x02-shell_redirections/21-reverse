@@ -1,2 +1,3 @@
 #!/bin/bash
 rev
+while read -r line; do echo "$line" | tr -d '\n' | rev && echo; done
