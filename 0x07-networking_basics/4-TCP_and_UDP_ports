@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#the bash script used to talk about the listening sockets.
+
+netstat -l -p
