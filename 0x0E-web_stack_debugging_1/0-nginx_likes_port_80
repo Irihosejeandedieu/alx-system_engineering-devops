@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-#ngnix likes port 80
-
-apt-get update -y
-apt-get install -y ngnix
-sudo service ngnix enable
-sudo service ngnix start
+#configure nginx server to listen for port 80
+#this is spam
+#ngnix likes port 80..
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+service nginx restart
