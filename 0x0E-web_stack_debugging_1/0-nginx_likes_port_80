@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#ngnix likes port 80
+
+apt-get update -y
+apt-get install -y ngnix
+sudo service ngnix enable
+sudo service ngnix start
